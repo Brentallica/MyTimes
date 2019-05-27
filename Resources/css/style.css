@@ -43,26 +43,23 @@ body {
   border: 1px solid black;
 }
 
-.large {
+.column {
   display: flex;
   flex-flow: column wrap;
   align-content: flex-start;
+}
+
+.large {
   width: 630px;
   border: 1px solid black;
 }
 
 .medium {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
   width: 300px;
   border: 1px solid black;
 }
 
 .small {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
   width: 240px;
   border: 1px solid black;
 }
