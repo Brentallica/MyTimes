@@ -2,6 +2,8 @@ body {
   margin: 10px 20px;
 }
 
+/*  Header stylings */
+
 .header {
   font-family: Verdana;
   font-size: 14px;
@@ -31,4 +33,40 @@ body {
 
 .hright a {
   color: black;
+}
+
+.maincontainer {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.large {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  width: 630px;
+  border: 1px solid black;
+}
+
+.medium {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  width: 240px;
+  border: 1px solid black;
+}
+
+.section {
+  border: 1px solid black;
 }
