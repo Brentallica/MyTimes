@@ -66,4 +66,32 @@ body {
 
 .section {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#phish {
+  background-image: url("../../Resources/images/img-story-main.png");
+  font-size: 40px;
+}
+
+#earth {
+  background-image: url("../../Resources/images/img-story-2.png");
+}
+
+#camera {
+  background-image: url("../../Resources/images/img-story-3.png");
+}
+
+#cat {
+  background-image: url("../../Resources/images/img-story-1.png");
 }
