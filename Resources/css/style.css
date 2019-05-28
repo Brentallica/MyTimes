@@ -9,21 +9,21 @@ body {
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  align-items: center;
-  align-content: center;
   justify-content: space-between;
   flex: row nowrap;
   border-bottom: 2px solid black;
+  align-content: center;
+  align-items: center;
 }
 
 .hleft {
   display: flex;
-  align-items: center;
 }
 
 .mytimestext {
-  padding: 10px;
+  padding-left: 10px;
   color: mediumaquamarine;
+  align-self: center;
 }
 
 .hright li {
@@ -35,18 +35,20 @@ body {
   color: black;
 }
 
+/* Main section styles*/
+
 .maincontainer {
   margin-top: 10px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
   border: 1px solid black;
+  justify-content: center;
 }
 
 .column {
   display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
+  flex-flow: row wrap;
+  margin: 10px;
 }
 
 .large {
@@ -69,6 +71,7 @@ body {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin: 10px;
 }
 
 .image {
@@ -79,17 +82,35 @@ body {
   color: white;
 }
 
+.image h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.horizcontainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
 #phish {
   background-image: url("../../Resources/images/img-story-main.png");
+}
+
+#phish h1 {
   font-size: 40px;
 }
 
 #earth {
   background-image: url("../../Resources/images/img-story-2.png");
+  order: 9;
 }
 
 #camera {
   background-image: url("../../Resources/images/img-story-3.png");
+  order: 10;
 }
 
 #cat {
